@@ -1,2 +1,5 @@
 # Gym Manager
-![Gym](https://media.giphy.com/media/KlH7RiEYFXZ7y/giphy.gif)
+
+![Terry Crews](https://media.giphy.com/media/c1kOqow8GOvqE/giphy.gif)
+
+### LaunchBase Project
