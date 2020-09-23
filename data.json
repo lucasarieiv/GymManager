@@ -1,0 +1,27 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "https://google.com",
+      "name": "Jim Halper",
+      "birth": "2020-09-23",
+      "gender": "M",
+      "service": "Musculação, Natação"
+    },
+    {
+      "avatar_url": "https://google.com",
+      "name": "João Azevedi",
+      "birth": "2020-09-30",
+      "gender": "M",
+      "service": "asdasd, asdasd",
+      "create_at": 1600895276034
+    },
+    {
+      "avatar_url": "https://www.googeele.com/",
+      "name": "Lucas Vieira da Silva",
+      "birth": 1599523200000,
+      "gender": "M",
+      "service": "Musculação, Natação",
+      "create_at": 1600895449621
+    }
+  ]
+}
