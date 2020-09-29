@@ -20,7 +20,7 @@ exports.show = function (req, res) {
         ...foundInstructors,
         age: age(foundInstructors.birth),
         services: foundInstructors.services.split(","),
-        created_at: ""
+        created_at: new Intl.DateTimeFormat("pt-BR").format(foundInstructors.created_at)
     }
 
     return res.render('instructors/show', { instructor })
