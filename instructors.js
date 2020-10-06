@@ -2,6 +2,10 @@ const fs = require('fs')
 const data = require("./data.json")
 const { age, date } = require("./utils")
 
+exports.index = function (req, res) {
+    return res.render('instructors/index', { instructors: data.instructors })
+}
+
 exports.show = function (req, res) {
     // req.query.id = instructors?id=1
     // req.body.id = formulário
@@ -94,7 +98,8 @@ exports.put = function (req, res) {
     const instructor = {
         ...foundInstructors,
         ...req.body,
-        birth: Date.parse(req.body.birth)
+        birth: Date.parse(req.body.birth),
+        id: Number(req.body.id)
     }
 
     data.instructors[index] = instructor
@@ -122,3 +127,4 @@ exports.delete = function (req, res) {
         return res.redirect("/instructors")
     })
 }
+
