@@ -1,10 +1,10 @@
 {
   "instructors": [
     {
-      "id": 1,
+      "id": "1",
       "avatar_url": "https://google.com",
       "name": "Carla",
-      "birth": 1599091200000,
+      "birth": 1568160000000,
       "gender": "F",
       "services": "CrossFit, Natação",
       "created_at": 1600895679614
